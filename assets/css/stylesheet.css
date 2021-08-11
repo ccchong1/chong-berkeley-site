@@ -30,91 +30,67 @@ p {
     position: relative;
   }
 
-.topnav {  
-  overflow: hidden;
-  background-color: #003262;
-}
-
-.topnav a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #FDB515;
-  color: #003262;
-}
-
-.topnav a.active {
-  background-color: #FDB515;
-  color: white;
-}
-
-.topnav .icon {
-  display: none;
-}
-
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
+  .header {
+    overflow: hidden;
+    background-color: #003262;
+    padding: 20px 10px;
+  }
+  
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: #fff;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  /* Change the background color on mouse-over */
+  .header a:hover {
+    background-color: #fff;
+    color: #003262;
+  }
+  
+  /* Style the active/current link*/
+  .header a.active {
+    background-color: #FDB515;
+    color: #fff;
+  }
+  
+  /* Float the link section to the right */
+  .header-right {
     float: right;
-    display: block;
   }
-}
-
-@media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
+  
+  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
   }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
+
+  ul {
+    color:#003262;
+    font-weight: 600;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
   }
-}
-
-.nav-button {
-  color: white;
-  font-weight: 700;
-  position: relative;
-  padding: 20px 0px 0px 0px;
-  float: right;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: #fff;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover:not(.active) {
-  background-color: #fff;
-}
-
-.active {
-  background-color: #FDB515;
-}
 
 .ucbe-logo {
   height: 50px;
@@ -318,5 +294,5 @@ quote {
   top: 12px;
   left: 20px;
   position: absolute;
-  
+  float: none;
 }

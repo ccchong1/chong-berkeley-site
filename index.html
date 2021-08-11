@@ -14,17 +14,17 @@
   </head>
 
 <body>
-  <header>
-    <ul class="topnav" id="myTopnav">
-      <li><a class="ucbe-logo" href="https://extension.berkeley.edu/"><img src="./assets/images/ucbe-extension-ko.png"/></a></li>
-        <li><a class="active nav-button" href="./index.html">HOME</a></li>
-        <li><a class="nav-button" href="./1890to1910.html">THROUGH THE YEARS</a></li>
-          <li><a class="nav-button" href="./newyear.html">BERKELEY NOW</a></li>
-          <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-          </a></li>
-      </ul>
+    <header>
+    <div class="header">
+        <a class="ucbe-logo" href="https://extension.berkeley.edu/"><img src="./assets/images/ucbe-extension-ko.png"/></a>
+        <div class="header-right">
+            <a class="active nav-button" href="./index.html">HOME</a>
+            <a class="nav-button" href="./1890to1910.html">THROUGH THE YEARS</a>
+            <a class="nav-button" href="./newyear.html">BERKELEY NOW</a>
+        </div>
+      </div>
     </header>
+ 
     <div class="container">
     <div class="row">
       <div class="col-sm">
@@ -85,12 +85,14 @@
     </div>
   </div>
 </div>
-
-    <img class="footer-image" src="./assets/images/campanile_1200_keeganhouser_1440.png" />
+<!-- Footer -->
+    <footer>
+        <img class="footer-image" src="./assets/images/campanile_1200_keeganhouser_1440.png" />
 
     <div class="footer-bar">
-      <div><p>&copy; 2021 Berkeley Extension Website</p>>
+      <p class="footer">&copy; 2021 Berkeley Extension Website</p>
     </div>
+    </footer>
     
 <!-- Start of JS -->
 
