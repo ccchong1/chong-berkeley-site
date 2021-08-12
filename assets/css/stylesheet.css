@@ -39,7 +39,7 @@ p {
   /* Style the header links */
   .header a {
     float: left;
-    color: #fff;
+    color: #EEEEEE;
     text-align: center;
     padding: 12px;
     text-decoration: none;
@@ -63,7 +63,7 @@ p {
   /* Style the active/current link*/
   .header a.active {
     background-color: #C4820E;
-    color: #fff;
+    color: #EEEEEE;
   }
   
   /* Float the link section to the right */
