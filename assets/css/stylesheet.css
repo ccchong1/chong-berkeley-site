@@ -59,7 +59,7 @@ p {
   
   .header a.active {
     background-color: #C4820E;
-    color: #fff;
+    color: #003262;
     font-weight: 700;
   }
   
@@ -100,6 +100,7 @@ p {
     position: fixed;
     height: 100%;
     overflow: auto;
+    
   }
   
   .sidebar a {
@@ -107,15 +108,18 @@ p {
     color: #003262;
     padding: 16px;
     text-decoration: none;
+    font-weight: 500;
   }
   .sidebar a.active {
     background-color: #C4820E;
-    color: #EEEEEE;
+    color: #003262;
+    font-weight: 700;
   }
   
   .sidebar a:hover:not(.active) {
     background-color: #C4820E;
-    color: #EEEEEE;
+    color: #003262;
+    font-weight: 700;
   }
   
   div.content {
