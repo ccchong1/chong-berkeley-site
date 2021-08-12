@@ -54,13 +54,13 @@ p {
   .header a:hover {
     background-color: #fff;
     color: #003262;
-    font-weight: 600;
+    font-weight: 700;
   }
   
   .header a.active {
     background-color: #C4820E;
-    color: #003262;
-    font-weight: 600;
+    color: #fff;
+    font-weight: 700;
   }
   
   .header-right {
