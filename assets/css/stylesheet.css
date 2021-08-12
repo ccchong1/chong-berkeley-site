@@ -58,7 +58,7 @@ p {
   }
   
   .header a.active {
-    background-color: #C4820E;
+    background-color: #FDB515;
     color: #003262;
     font-weight: 700;
   }
@@ -111,13 +111,13 @@ p {
     font-weight: 500;
   }
   .sidebar a.active {
-    background-color: #C4820E;
+    background-color: #FDB515;
     color: #003262;
     font-weight: 700;
   }
   
   .sidebar a:hover:not(.active) {
-    background-color: #C4820E;
+    background-color: #FDB515;
     color: #003262;
     font-weight: 700;
   }
@@ -252,7 +252,7 @@ quote {
 .quoted {
   font-size: 15px;
   font-weight: 700;
-  color: #C4820E;
+  color: #FDB515;
 }
 
 .quote-background {
