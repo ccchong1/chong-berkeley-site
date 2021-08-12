@@ -45,7 +45,6 @@ p {
     text-decoration: none;
     font-size: 18px;
     line-height: 25px;
-    border-radius: 4px;
   }
   
   /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
@@ -58,6 +57,7 @@ p {
   .header a:hover {
     background-color: #fff;
     color: #003262;
+    font-weight: 500;
   }
   
   /* Style the active/current link*/
@@ -100,7 +100,7 @@ p {
   .sidebar {
     margin: 0;
     padding: 0;
-    width: 200px;
+    width: 150px;
     background-color: #fff;
     position: fixed;
     height: 100%;
@@ -231,8 +231,17 @@ button:hover {
 }
 
 .vl {
-  border-left: 6px solid #003262;
-  height: 500px;
+  border-left: 3px solid #003262;
+  height: 100%;
+  padding-top: 20px;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #FDB515;
+  border-radius: 50%;
+  display: inline-block;
 }
 
 quote {
@@ -257,7 +266,7 @@ quote {
 }
 
 .decades-timeline {
-  padding-top: 25px;
+  padding-top: 20px;
   padding-bottom: 25px;
 }
 
