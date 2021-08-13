@@ -19,7 +19,7 @@ h2 {
   font-weight: 900;
   line-height: 50%;
   position:relative;
-  text-align: center
+  text-align: center;
 }
 
 p {
@@ -298,8 +298,13 @@ quote {
   padding-bottom: 25px;
 }
 
+.newyear-text {
+ height: 25%;
+ align-items: center;
+}
+
 .new-year {
-  text-align: center
+  text-align: center;
 }
 
 .home-images {
