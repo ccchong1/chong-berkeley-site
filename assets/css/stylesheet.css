@@ -82,6 +82,10 @@ p {
     }
   }
 
+.header .ucbe-logo:hover {
+background-color: transparent;
+}
+
   ul {
     color:#003262;
     font-weight: 600;
@@ -226,6 +230,7 @@ button {
   color: #003262;
   border: 0;
   font-weight: 900;
+  color: -internal-light-dark(black, white);
 }
 
 button:hover {
